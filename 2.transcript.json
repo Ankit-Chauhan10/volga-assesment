@@ -1,0 +1,219 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "filename": "2.mp4",
+    "format": "mov,mp4,m4a,3gp,3g2,mj2",
+    "duration_seconds": 863.271,
+    "size_bytes": 54157653,
+    "audio_stream": {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_type": "audio",
+      "sample_rate": "44100",
+      "channels": 2,
+      "duration": "863.271474"
+    }
+  },
+  "transcription": {
+    "language": "en",
+    "text": "Hey everyone, this is the design pairing session on April 13th, and I've added a few things to our agenda. The first one, just focusing on finalizing the second iteration of our glossary and getting it merged. So thank you all for. who've jumped in there so far. I think the only outstanding was really around the application definition, but I think we're pretty much there, but just wanted to open up a bit of time during this meeting to kind of discuss anything that might be outstanding with this MR. And if not, maybe we can even merge it in this meeting. That would be cool. We would do something in a meeting. So I don't know if I want to give everyone like five minutes to read this over or the best way to collaborate on this sync, but if you can summarize as well, like what's what's in the thread. Yeah, so let me just summarize some of the changes that we're adding in here. So we're adding in definitions for application, configuration, deployment, and secrets. I believe secrets, deployment, configuration have all kind of finalized and we're good with the definitions for those. Application was the one we were running into problems with because The term release in application release has so many different meanings that trying to define release in the application definition was getting a bit confusing. So we've taken release out. We've replaced it with artifact as that's more like all-encompassing of what this means. But that's kind of the summary of what has happened in this MR so far. And then as a side note, I know Shinya and Victor were working on a diagram to better kind of like understand the entity relationships. I had the link directly into the entity relationship diagram if someone wants to check it out. Yeah, I can share my screen if that's helpful. I think it was right. It was really good catch from Pam, that this release was confusing. And the question is whether the new recommendation there that just doesn't speak about releases is easy to understand for everyone. Yeah, so that one. This one. Right there. As I commented, I think this one makes sense. If we want to adjust it, we can always do that in the next MR as well. But I think this is a good start to it. But I'd be curious what other people think. I also think it makes sense. And we can interact on this. I think we should just merge it. Yeah, I agree. I'm wondering if we should have some sort of version attachment somewhere in the definition, but I don't think it's necessary for this first step. I think we're probably good to merge that in and then get started on the next one next week, the V3 of this. I do not have merge rights, so Victor, you can do the honor of doing this. Okay. Did you accept? No, my last suggestion. Okay. By the way, I added the entity relationship diagram at the beginning of the doc as well. So it's basically part of the page. Yeah, I think that's where I'd expect it to be. Cool. Well, that's one thing off the list. I don't have anything major for this week design-wise because it was kind of focused on getting the 16-0 plan finalized and everything done with the 15-11 plan, but I do have one ask. I'm looking to sub in real or believable data into our GERP Oval Environments dashboard, and I was hoping I could partner with someone to kind of figure that out. I've called it Andre, because I know you had worked with this style of kind of setup before, but open to anyone who might be able to help with that. Yeah, I can support you. Yeah, it's just... Did you have time? That depends on actually how much time do you expect from me, Emily. It shouldn't be much. It's just making sure I have like the namings of the group and project proper and like believable, just like believable content. So I'll be the first one to sub everything in and it would just be kind of one review to make sure it makes sense. Yeah, then no problem. Yeah, not, I'd say probably max half an hour of your time. And that kind of wraps it up with my stuff, but now i'm passing it over to see if anyone else has any outstanding design stuff I could help with. That's the weird in between milestone week. Yeah, I agree. That's why I didn't have very much for this one, because most of my 15-11 stuff has been wrapped up. Nobody has nothing there. I would have one question. It's a glossary parser to the design spring. Are you aware? I have an incoming call and I try to get home so it's okay. So what I started to think about is that do we have anywhere documented the current available state of deployment or deployment job where I don't even know or environments? Because what I've seen is that we have plenty of issues around states not working as we expect them to so I think it would be important for us that for the design sprint we know the available states and we can either discuss based on them or we can add more states as part of the design sprint so that Uh, so I remember Russell was doing a very, like a pretty big revamp of the environments documentation, but this happened when over top of the, when all the reorgs happened. So I don't actually know the outcome of this like documentation change. Cause I know he was adding in a bunch more details and just making sure the environments documentation flowed a lot better. But I don't actually know if that ever finished. Cause I know before that we haven't touched it for a while. Yeah. Um, I would expect here more, uh, engine documentation. So like, uh, that is, it's not just what we document for our user, but really what, what's happening behind it. So what are the states that we store in the models, if there are any constraints around them and stuff like that. And is it documented anywhere? Or we would need to, to look for it in the code base. that I don't know actually. Or how difficult it is to get it from the code. I think that's the question. And I know that Ruby engineer could answer it much faster than any of you. So that's a bad answer that you have no idea. So for environments, there's only available in stock. as represented by the tabs on the environments page. For deployments, there's a bunch more that are well documented. I'd say, well, they are documented in our GraphQL API by way of like an enum. So it's just an enumeration of all this listed states, but it doesn't necessarily give good details as to what each state means. The idea being that we named them while I asked that it should be pretty obvious, but it never really is. I think that's a good start, actually. Yeah. If you could just link it here. Yeah, let me go digging in our GraphQL docs for a second. Found it. I think I found it as well. Yep. I remove what you write here, I remove it to the design spring issue as a comment. For the most part, they're also pretty explicitly linked to what's available as job status as well. Because in the inventory base, deployments are generally tied to So they kind of share status, but I think you're very, very good. Okay, thank you. That was all I had. Since this is kind of our in-between week meeting, I can give people a bunch of time back if there's nothing else. Well, thanks all for helping merge the next iteration of the glossary. Look forward to the next few terms coming in next week. So we're trying to get this all done before we do a design sprint. I think that's pretty good, actually, Anna. Cool. Thanks. Bye. Bye bye.",
+    "segments": [
+      {
+        "id": 0,
+        "start": 2.782,
+        "end": 20.753,
+        "text": "Hey everyone, this is the design pairing session on April 13th, and I've added a few things to our agenda. The first one, just focusing on finalizing the second iteration of our glossary and getting it merged. So thank you all for."
+      },
+      {
+        "id": 1,
+        "start": 20.753,
+        "end": 48.091,
+        "text": "who've jumped in there so far. I think the only outstanding was really around the application definition, but I think we're pretty much there, but just wanted to open up a bit of time during this meeting to kind of discuss anything that might be outstanding with this MR. And if not, maybe we can even merge it in this meeting. That would be cool."
+      },
+      {
+        "id": 2,
+        "start": 50.048,
+        "end": 71.75,
+        "text": "We would do something in a meeting. So I don't know if I want to give everyone like five minutes to read this over or the best way to collaborate on this sync, but if you can summarize as well, like what's what's in the thread."
+      },
+      {
+        "id": 3,
+        "start": 73.707,
+        "end": 100.606,
+        "text": "Yeah, so let me just summarize some of the changes that we're adding in here. So we're adding in definitions for application, configuration, deployment, and secrets. I believe secrets, deployment, configuration have all kind of finalized and we're good with the definitions for those. Application was the one we were running into problems with because"
+      },
+      {
+        "id": 4,
+        "start": 100.606,
+        "end": 124.703,
+        "text": "The term release in application release has so many different meanings that trying to define release in the application definition was getting a bit confusing. So we've taken release out. We've replaced it with artifact as that's more like all-encompassing of what this means. But that's kind of the summary of what has happened in this MR so far."
+      },
+      {
+        "id": 5,
+        "start": 131.2,
+        "end": 141.241,
+        "text": "And then as a side note, I know Shinya and Victor were working on a diagram to better kind of like understand the entity relationships."
+      },
+      {
+        "id": 6,
+        "start": 155.737,
+        "end": 177.067,
+        "text": "I had the link directly into the entity relationship diagram if someone wants to check it out. Yeah, I can share my screen if that's helpful. I think it was right."
+      },
+      {
+        "id": 7,
+        "start": 178.147,
+        "end": 203.442,
+        "text": "It was really good catch from Pam, that this release was confusing. And the question is whether the new recommendation there that just doesn't speak about releases is easy to understand for everyone. Yeah, so that one. This one. Right there."
+      },
+      {
+        "id": 8,
+        "start": 228.94,
+        "end": 254.692,
+        "text": "As I commented, I think this one makes sense. If we want to adjust it, we can always do that in the next MR as well. But I think this is a good start to it. But I'd be curious what other people think. I also think it makes sense. And we can interact on this. I think we should just merge it."
+      },
+      {
+        "id": 9,
+        "start": 258.893,
+        "end": 286.788,
+        "text": "Yeah, I agree. I'm wondering if we should have some sort of version attachment somewhere in the definition, but I don't think it's necessary for this first step. I think we're probably good to merge that in and then get started on the next one next week, the V3 of this."
+      },
+      {
+        "id": 10,
+        "start": 288.863,
+        "end": 311.932,
+        "text": "I do not have merge rights, so Victor, you can do the honor of doing this. Okay. Did you accept? No, my last suggestion. Okay."
+      },
+      {
+        "id": 11,
+        "start": 317.399,
+        "end": 345.226,
+        "text": "By the way, I added the entity relationship diagram at the beginning of the doc as well. So it's basically part of the page. Yeah, I think that's where I'd expect it to be. Cool. Well, that's one thing off the list."
+      },
+      {
+        "id": 12,
+        "start": 347.521,
+        "end": 374.504,
+        "text": "I don't have anything major for this week design-wise because it was kind of focused on getting the 16-0 plan finalized and everything done with the 15-11 plan, but I do have one ask. I'm looking to sub in real or believable data into our GERP Oval Environments dashboard, and I was hoping I could partner with someone to kind of figure that out."
+      },
+      {
+        "id": 13,
+        "start": 374.504,
+        "end": 398.416,
+        "text": "I've called it Andre, because I know you had worked with this style of kind of setup before, but open to anyone who might be able to help with that. Yeah, I can support you. Yeah, it's just... Did you have time?"
+      },
+      {
+        "id": 14,
+        "start": 401.656,
+        "end": 412.169,
+        "text": "That depends on actually how much time do you expect from me, Emily."
+      },
+      {
+        "id": 15,
+        "start": 412.945,
+        "end": 438.19,
+        "text": "It shouldn't be much. It's just making sure I have like the namings of the group and project proper and like believable, just like believable content. So I'll be the first one to sub everything in and it would just be kind of one review to make sure it makes sense. Yeah, then no problem. Yeah, not, I'd say probably max half an hour of your time."
+      },
+      {
+        "id": 16,
+        "start": 444.113,
+        "end": 467.131,
+        "text": "And that kind of wraps it up with my stuff, but now i'm passing it over to see if anyone else has any outstanding design stuff I could help with. That's the weird in between milestone week."
+      },
+      {
+        "id": 17,
+        "start": 469.662,
+        "end": 495.565,
+        "text": "Yeah, I agree. That's why I didn't have very much for this one, because most of my 15-11 stuff has been wrapped up. Nobody has nothing there. I would have one question. It's a glossary parser to the design spring. Are you aware?"
+      },
+      {
+        "id": 18,
+        "start": 500.29,
+        "end": 527.088,
+        "text": "I have an incoming call and I try to get home so it's okay. So what I started to think about is that do we have anywhere documented the current available state of deployment or deployment job where I don't even know or environments? Because what I've seen is that we have plenty of issues around"
+      },
+      {
+        "id": 19,
+        "start": 528.91,
+        "end": 547.658,
+        "text": "states not working as we expect them to so I think it would be important for us that for the design sprint we know the available states and we can either discuss based on them or we can add more states as part of the design sprint so that"
+      },
+      {
+        "id": 20,
+        "start": 552.13,
+        "end": 581.813,
+        "text": "Uh, so I remember Russell was doing a very, like a pretty big revamp of the environments documentation, but this happened when over top of the, when all the reorgs happened. So I don't actually know the outcome of this like documentation change. Cause I know he was adding in a bunch more details and just making sure the environments documentation flowed a lot better. But I don't actually know if that ever finished."
+      },
+      {
+        "id": 21,
+        "start": 585.442,
+        "end": 615.108,
+        "text": "Cause I know before that we haven't touched it for a while. Yeah. Um, I would expect here more, uh, engine documentation. So like, uh, that is, it's not just what we document for our user, but really what, what's happening behind it. So what are the states that we store in the models, if there are any constraints around them and stuff like that. And is it documented anywhere? Or we would need to, to look for it in the code base."
+      },
+      {
+        "id": 22,
+        "start": 617.116,
+        "end": 643.61,
+        "text": "that I don't know actually. Or how difficult it is to get it from the code. I think that's the question. And I know that Ruby engineer could answer it much faster than any of you. So that's a bad answer that you have no idea. So for environments, there's only available in stock."
+      },
+      {
+        "id": 23,
+        "start": 644.251,
+        "end": 666.357,
+        "text": "as represented by the tabs on the environments page. For deployments, there's a bunch more that are well documented. I'd say, well, they are documented in our GraphQL API by way of like an enum. So it's just an enumeration of all this listed states, but it doesn't"
+      },
+      {
+        "id": 24,
+        "start": 667.859,
+        "end": 691.214,
+        "text": "necessarily give good details as to what each state means. The idea being that we named them while I asked that it should be pretty obvious, but it never really is. I think that's a good start, actually. Yeah. If you could just link it here."
+      },
+      {
+        "id": 25,
+        "start": 696.428,
+        "end": 720.965,
+        "text": "Yeah, let me go digging in our GraphQL docs for a second. Found it."
+      },
+      {
+        "id": 26,
+        "start": 735.308,
+        "end": 747.037,
+        "text": "I think I found it as well. Yep."
+      },
+      {
+        "id": 27,
+        "start": 767.945,
+        "end": 797.797,
+        "text": "I remove what you write here, I remove it to the design spring issue as a comment. For the most part, they're also pretty explicitly linked to what's available as job status as well. Because in the inventory base, deployments are generally tied to"
+      },
+      {
+        "id": 28,
+        "start": 798.235,
+        "end": 818.08,
+        "text": "So they kind of share status, but I think you're very, very good. Okay, thank you. That was all I had."
+      },
+      {
+        "id": 29,
+        "start": 826.096,
+        "end": 855.998,
+        "text": "Since this is kind of our in-between week meeting, I can give people a bunch of time back if there's nothing else. Well, thanks all for helping merge the next iteration of the glossary. Look forward to the next few terms coming in next week. So we're trying to get this all done before we do a design sprint. I think that's pretty good, actually, Anna."
+      },
+      {
+        "id": 30,
+        "start": 857.669,
+        "end": 862.259,
+        "text": "Cool. Thanks. Bye. Bye bye."
+      }
+    ]
+  },
+  "processing": {
+    "engine": "whisperx",
+    "model": "small",
+    "device": "cpu",
+    "compute_type": "int8",
+    "batch_size": 2,
+    "vad_enabled": true,
+    "word_alignment_enabled": false,
+    "elapsed_seconds": 143.531
+  }
+}

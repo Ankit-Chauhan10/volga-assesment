@@ -1,0 +1,1482 @@
+{
+  "metadata": {
+    "total_speakers": 4,
+    "total_segments": 145,
+    "total_duration": 862.3344651952461,
+    "overlapping_segments": 16
+  },
+  "speaker_statistics": {
+    "SPEAKER_00": {
+      "total_duration": 268.964346349745,
+      "turn_count": 48,
+      "word_count": 1112
+    },
+    "SPEAKER_03": {
+      "total_duration": 149.8981324278437,
+      "turn_count": 57,
+      "word_count": 994
+    },
+    "SPEAKER_02": {
+      "total_duration": 77.48726655348068,
+      "turn_count": 32,
+      "word_count": 577
+    },
+    "SPEAKER_01": {
+      "total_duration": 12.665534804753747,
+      "turn_count": 8,
+      "word_count": 71
+    }
+  },
+  "segments": [
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 2.7589134125636674,
+      "end_time": 13.794567062818338,
+      "duration": 11.03565365025467,
+      "text": "Hey everyone, this is the design pairing session on April 13th and I've added a few things to our agenda. The first one, just focusing on finalizing the second iteration of our glossary and getting",
+      "overlapping": false,
+      "start_time_formatted": "00:00:02.758",
+      "end_time_formatted": "00:00:13.794"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 14.219015280135824,
+      "end_time": 20.263157894736842,
+      "duration": 6.044142614601018,
+      "text": "The first one, just focusing on finalizing the second iteration of our glossary and getting it merged. So thank you all for Boob jumped in there so far.",
+      "overlapping": false,
+      "start_time_formatted": "00:00:14.219",
+      "end_time_formatted": "00:00:20.263"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 20.840407470288625,
+      "end_time": 29.14261460101868,
+      "duration": 8.302207130730054,
+      "text": "So thank you all for Boob jumped in there so far. I think the only outstanding was really around the application definition, but I think we're pretty much there, but just wanted to open up a bit of time during this meeting to kind",
+      "overlapping": false,
+      "start_time_formatted": "00:00:20.840",
+      "end_time_formatted": "00:00:29.142"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 29.584040747028865,
+      "end_time": 38.1918505942275,
+      "duration": 8.607809847198638,
+      "text": "pretty much there, but just wanted to open up a bit of time during this meeting to kind of discuss anything that might be outstanding with this MR.",
+      "overlapping": false,
+      "start_time_formatted": "00:00:29.584",
+      "end_time_formatted": "00:00:38.191"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 41.87606112054329,
+      "end_time": 44.81324278438031,
+      "duration": 2.9371816638370163,
+      "text": "of discuss anything that might be outstanding with this MR. And if not, maybe we can even merge it in this meeting.",
+      "overlapping": false,
+      "start_time_formatted": "00:00:41.876",
+      "end_time_formatted": "00:00:44.813"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 47.22410865874363,
+      "end_time": 48.02207130730051,
+      "duration": 0.7979626485568758,
+      "text": "And if not, maybe we can even merge it in this meeting. That's what they call.",
+      "overlapping": false,
+      "start_time_formatted": "00:00:47.224",
+      "end_time_formatted": "00:00:48.022"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 50.00848896434635,
+      "end_time": 51.5195246179966,
+      "duration": 1.5110356536502536,
+      "text": "That's what they call. We would do something in a meeting.",
+      "overlapping": false,
+      "start_time_formatted": "00:00:50.008",
+      "end_time_formatted": "00:00:51.519"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 58.293718166383705,
+      "end_time": 66.17147707979626,
+      "duration": 7.877758913412556,
+      "text": "So I don't know if I want to give everyone like five minutes to read this over or the best way to collaborate on this sync, but if you guys summarize as well, like what's",
+      "overlapping": false,
+      "start_time_formatted": "00:00:58.293",
+      "end_time_formatted": "00:01:06.171"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 67.75042444821733,
+      "end_time": 69.88964346349746,
+      "duration": 2.1392190152801334,
+      "text": "best way to collaborate on this sync, but if you guys summarize as well, like what's",
+      "overlapping": false,
+      "start_time_formatted": "00:01:07.750",
+      "end_time_formatted": "00:01:09.889"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 70.80645161290323,
+      "end_time": 71.75721561969439,
+      "duration": 0.9507640067911609,
+      "text": "best way to collaborate on this sync, but if you guys summarize as well, like what's in the flag?",
+      "overlapping": false,
+      "start_time_formatted": "00:01:10.806",
+      "end_time_formatted": "00:01:11.757"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 73.69269949066214,
+      "end_time": 86.93548387096774,
+      "duration": 13.242784380305608,
+      "text": "Yeah, so let me just summarize some of the changes that we're adding in here. So we're adding in definitions for application configuration, deployment and secrets.",
+      "overlapping": false,
+      "start_time_formatted": "00:01:13.692",
+      "end_time_formatted": "00:01:26.935"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 87.39388794567063,
+      "end_time": 100.00848896434636,
+      "duration": 12.614601018675728,
+      "text": "So we're adding in definitions for application configuration, deployment and secrets. I believe secrets, deployment, configuration have all kind of finalized and we're good with the definitions for those application was the one we were running into problems with because the term release in application releases so many different meanings that trying",
+      "overlapping": false,
+      "start_time_formatted": "00:01:27.393",
+      "end_time_formatted": "00:01:40.008"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 100.63667232597624,
+      "end_time": 103.06451612903226,
+      "duration": 2.427843803056021,
+      "text": "because the term release in application releases so many different meanings that trying",
+      "overlapping": false,
+      "start_time_formatted": "00:01:40.636",
+      "end_time_formatted": "00:01:43.064"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 103.25127334465196,
+      "end_time": 115.33955857385399,
+      "duration": 12.088285229202029,
+      "text": "because the term release in application releases so many different meanings that trying to define release in the application definition was getting a bit confusing. So we've taken release out, we've replaced it with artifact as that's more like all encompassing",
+      "overlapping": false,
+      "start_time_formatted": "00:01:43.251",
+      "end_time_formatted": "00:01:55.339"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 115.89983022071308,
+      "end_time": 118.90492359932088,
+      "duration": 3.0050933786077962,
+      "text": "So we've taken release out, we've replaced it with artifact as that's more like all encompassing of what this means, but that's kind of the summary of what has happened in this MR so",
+      "overlapping": false,
+      "start_time_formatted": "00:01:55.899",
+      "end_time_formatted": "00:01:58.904"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 119.49915110356537,
+      "end_time": 124.64346349745333,
+      "duration": 5.144312393887958,
+      "text": "of what this means, but that's kind of the summary of what has happened in this MR so far.",
+      "overlapping": false,
+      "start_time_formatted": "00:01:59.499",
+      "end_time_formatted": "00:02:04.643"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 131.23089983022072,
+      "end_time": 141.19694397283533,
+      "duration": 9.966044142614606,
+      "text": "And then as a side note, I know Shania and Victor were working on a diagram to better kind of like understand the entity relationships.",
+      "overlapping": false,
+      "start_time_formatted": "00:02:11.230",
+      "end_time_formatted": "00:02:21.196"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 155.6960950764007,
+      "end_time": 161.4685908319185,
+      "duration": 5.772495755517809,
+      "text": "I did link directly into the entity relationship diagram if someone wants to share that.",
+      "overlapping": false,
+      "start_time_formatted": "00:02:35.696",
+      "end_time_formatted": "00:02:41.468"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 163.08149405772497,
+      "end_time": 163.55687606112056,
+      "duration": 0.47538200339559467,
+      "text": "Yeah, I can share my screen if that's helpful.",
+      "overlapping": false,
+      "start_time_formatted": "00:02:43.081",
+      "end_time_formatted": "00:02:43.556"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 163.55687606112056,
+      "end_time": 163.67572156196945,
+      "duration": 0.11884550084889156,
+      "text": "Yeah, I can share my screen if that's helpful.",
+      "overlapping": false,
+      "start_time_formatted": "00:02:43.556",
+      "end_time_formatted": "00:02:43.675"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 163.67572156196945,
+      "end_time": 163.76061120543295,
+      "duration": 0.08488964346349803,
+      "text": "Yeah, I can share my screen if that's helpful.",
+      "overlapping": false,
+      "start_time_formatted": "00:02:43.675",
+      "end_time_formatted": "00:02:43.760"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 167.25806451612905,
+      "end_time": 170.38200339558574,
+      "duration": 3.123938879456688,
+      "text": "Yeah, I can share my screen if that's helpful.",
+      "overlapping": false,
+      "start_time_formatted": "00:02:47.258",
+      "end_time_formatted": "00:02:50.382"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 175.3056027164686,
+      "end_time": 177.12224108658745,
+      "duration": 1.8166383701188522,
+      "text": "I think it was really good catch from Pam that this release was confusing and the question",
+      "overlapping": false,
+      "start_time_formatted": "00:02:55.305",
+      "end_time_formatted": "00:02:57.122"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 178.08998302207132,
+      "end_time": 183.18336162988118,
+      "duration": 5.0933786078098535,
+      "text": "I think it was really good catch from Pam that this release was confusing and the question",
+      "overlapping": true,
+      "start_time_formatted": "00:02:58.089",
+      "end_time_formatted": "00:03:03.183"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 178.276740237691,
+      "end_time": 178.39558573853992,
+      "duration": 0.11884550084891998,
+      "text": "I think it was really good catch from Pam that this release was confusing and the question",
+      "overlapping": true,
+      "start_time_formatted": "00:02:58.276",
+      "end_time_formatted": "00:02:58.395"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 178.39558573853992,
+      "end_time": 178.7011884550085,
+      "duration": 0.3056027164685702,
+      "text": "I think it was really good catch from Pam that this release was confusing and the question",
+      "overlapping": false,
+      "start_time_formatted": "00:02:58.395",
+      "end_time_formatted": "00:02:58.701"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 178.7011884550085,
+      "end_time": 178.7521222410866,
+      "duration": 0.050933786078104504,
+      "text": "I think it was really good catch from Pam that this release was confusing and the question",
+      "overlapping": false,
+      "start_time_formatted": "00:02:58.701",
+      "end_time_formatted": "00:02:58.752"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 183.69269949066216,
+      "end_time": 184.98302207130732,
+      "duration": 1.290322580645153,
+      "text": "I think it was really good catch from Pam that this release was confusing and the question is whether the new recommendation there that just doesn't speak about releases is easy",
+      "overlapping": false,
+      "start_time_formatted": "00:03:03.692",
+      "end_time_formatted": "00:03:04.983"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 185.169779286927,
+      "end_time": 189.2275042444822,
+      "duration": 4.057724957555195,
+      "text": "is whether the new recommendation there that just doesn't speak about releases is easy",
+      "overlapping": false,
+      "start_time_formatted": "00:03:05.169",
+      "end_time_formatted": "00:03:09.227"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 189.56706281833618,
+      "end_time": 190.16129032258067,
+      "duration": 0.5942275042444862,
+      "text": "is whether the new recommendation there that just doesn't speak about releases is easy",
+      "overlapping": false,
+      "start_time_formatted": "00:03:09.567",
+      "end_time_formatted": "00:03:10.161"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 191.9779286926995,
+      "end_time": 192.6740237691002,
+      "duration": 0.6960950764006952,
+      "text": "is whether the new recommendation there that just doesn't speak about releases is easy",
+      "overlapping": true,
+      "start_time_formatted": "00:03:11.977",
+      "end_time_formatted": "00:03:12.674"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 191.9949066213922,
+      "end_time": 192.3684210526316,
+      "duration": 0.37351443123938566,
+      "text": "is whether the new recommendation there that just doesn't speak about releases is easy",
+      "overlapping": true,
+      "start_time_formatted": "00:03:11.994",
+      "end_time_formatted": "00:03:12.368"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 192.3684210526316,
+      "end_time": 192.3853989813243,
+      "duration": 0.016977928692710975,
+      "text": "is whether the new recommendation there that just doesn't speak about releases is easy",
+      "overlapping": false,
+      "start_time_formatted": "00:03:12.368",
+      "end_time_formatted": "00:03:12.385"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 195.169779286927,
+      "end_time": 196.98641765704585,
+      "duration": 1.8166383701188522,
+      "text": "is whether the new recommendation there that just doesn't speak about releases is easy to understand for everyone.",
+      "overlapping": false,
+      "start_time_formatted": "00:03:15.169",
+      "end_time_formatted": "00:03:16.986"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 199.32937181663837,
+      "end_time": 200.61969439728355,
+      "duration": 1.2903225806451815,
+      "text": "Yeah, so that one.",
+      "overlapping": true,
+      "start_time_formatted": "00:03:19.329",
+      "end_time_formatted": "00:03:20.619"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 200.09337860780985,
+      "end_time": 200.77249575551784,
+      "duration": 0.6791171477079843,
+      "text": "Yeah, so that one.",
+      "overlapping": true,
+      "start_time_formatted": "00:03:20.093",
+      "end_time_formatted": "00:03:20.772"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 200.77249575551784,
+      "end_time": 203.47198641765706,
+      "duration": 2.699490662139226,
+      "text": "Yeah, so that one. That one. Now, okay. Yeah.",
+      "overlapping": false,
+      "start_time_formatted": "00:03:20.772",
+      "end_time_formatted": "00:03:23.471"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 228.95585738539899,
+      "end_time": 240.16129032258067,
+      "duration": 11.205432937181683,
+      "text": "As I commented, I think this one makes sense if we want to adjust it, we can always do that in the next MR as well, but I think this is a good start to it, but I'd be curious what other people think.",
+      "overlapping": false,
+      "start_time_formatted": "00:03:48.955",
+      "end_time_formatted": "00:04:00.161"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 248.39558573853992,
+      "end_time": 248.4125636672326,
+      "duration": 0.016977928692682553,
+      "text": "I also think it makes sense.",
+      "overlapping": false,
+      "start_time_formatted": "00:04:08.395",
+      "end_time_formatted": "00:04:08.412"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 248.4125636672326,
+      "end_time": 248.9898132427844,
+      "duration": 0.5772495755518037,
+      "text": "I also think it makes sense.",
+      "overlapping": false,
+      "start_time_formatted": "00:04:08.412",
+      "end_time_formatted": "00:04:08.989"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 248.9898132427844,
+      "end_time": 249.99151103565367,
+      "duration": 1.0016977928692654,
+      "text": "I also think it makes sense.",
+      "overlapping": false,
+      "start_time_formatted": "00:04:08.989",
+      "end_time_formatted": "00:04:09.991"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 251.8251273344652,
+      "end_time": 254.60950764006793,
+      "duration": 2.784380305602724,
+      "text": "I also think it makes sense. And we can interact on this. I think we should just merge it.",
+      "overlapping": false,
+      "start_time_formatted": "00:04:11.825",
+      "end_time_formatted": "00:04:14.609"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 258.88794567062826,
+      "end_time": 259.8726655348048,
+      "duration": 0.9847198641765544,
+      "text": "I think we should just merge it. Yeah, I agree.",
+      "overlapping": false,
+      "start_time_formatted": "00:04:18.887",
+      "end_time_formatted": "00:04:19.872"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 261.62139219015285,
+      "end_time": 271.65534804753827,
+      "duration": 10.033955857385422,
+      "text": "I'm wondering if we should have some sort of version attachment somewhere in the definition, but I don't think it's necessary for this first step.",
+      "overlapping": false,
+      "start_time_formatted": "00:04:21.621",
+      "end_time_formatted": "00:04:31.655"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 277.4448217317488,
+      "end_time": 278.1409168081494,
+      "duration": 0.6960950764006384,
+      "text": "but I don't think it's necessary for this first step. Cool.",
+      "overlapping": false,
+      "start_time_formatted": "00:04:37.444",
+      "end_time_formatted": "00:04:38.140"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 278.63327674023776,
+      "end_time": 286.66383701188454,
+      "duration": 8.030560271646777,
+      "text": "Cool. I think I think we're probably good to merge that in and then get started on the next one next week, the three of this.",
+      "overlapping": false,
+      "start_time_formatted": "00:04:38.633",
+      "end_time_formatted": "00:04:46.663"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 288.8709677419355,
+      "end_time": 293.8964346349745,
+      "duration": 5.025466893039038,
+      "text": "So I do not have merged right. So I'm going to do the first step.",
+      "overlapping": true,
+      "start_time_formatted": "00:04:48.870",
+      "end_time_formatted": "00:04:53.896"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 292.1477079796265,
+      "end_time": 292.8268251273345,
+      "duration": 0.6791171477079843,
+      "text": "So I'm going to do the first step.",
+      "overlapping": true,
+      "start_time_formatted": "00:04:52.147",
+      "end_time_formatted": "00:04:52.826"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 300.77249575551787,
+      "end_time": 302.402376910017,
+      "duration": 1.6298811544991167,
+      "text": "So I'm going to do the first step. Okay, then.",
+      "overlapping": false,
+      "start_time_formatted": "00:05:00.772",
+      "end_time_formatted": "00:05:02.402"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 303.7945670628184,
+      "end_time": 306.4261460101868,
+      "duration": 2.631578947368439,
+      "text": "Okay, then. Did you accept the fly suggestion?",
+      "overlapping": false,
+      "start_time_formatted": "00:05:03.794",
+      "end_time_formatted": "00:05:06.426"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 310.4329371816639,
+      "end_time": 311.9269949066214,
+      "duration": 1.4940577249575426,
+      "text": "Did you accept the fly suggestion? Okay.",
+      "overlapping": false,
+      "start_time_formatted": "00:05:10.432",
+      "end_time_formatted": "00:05:11.926"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 317.37691001697794,
+      "end_time": 321.79117147707984,
+      "duration": 4.414261460101898,
+      "text": "Okay. I added the entity relationship diagram at the beginning of the doc as well.",
+      "overlapping": false,
+      "start_time_formatted": "00:05:17.376",
+      "end_time_formatted": "00:05:21.791"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 323.0305602716469,
+      "end_time": 328.5653650254669,
+      "duration": 5.534804753820026,
+      "text": "I added the entity relationship diagram at the beginning of the doc as well. So it is basically part of the page.",
+      "overlapping": false,
+      "start_time_formatted": "00:05:23.030",
+      "end_time_formatted": "00:05:28.565"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 330.85738539898136,
+      "end_time": 333.2003395585739,
+      "duration": 2.342954159592523,
+      "text": "So it is basically part of the page. Yeah, I think that's where I'd expect it to be.",
+      "overlapping": false,
+      "start_time_formatted": "00:05:30.857",
+      "end_time_formatted": "00:05:33.200"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 340.4329371816639,
+      "end_time": 340.77249575551787,
+      "duration": 0.33955857385399213,
+      "text": "Cool.",
+      "overlapping": false,
+      "start_time_formatted": "00:05:40.432",
+      "end_time_formatted": "00:05:40.772"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 343.1833616298811,
+      "end_time": 345.0848896434635,
+      "duration": 1.9015280135823787,
+      "text": "Well, that's one thing off the list.",
+      "overlapping": false,
+      "start_time_formatted": "00:05:43.183",
+      "end_time_formatted": "00:05:45.084"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 347.5127334465195,
+      "end_time": 348.3955857385399,
+      "duration": 0.8828522920204023,
+      "text": "Well, that's one thing off the list.",
+      "overlapping": false,
+      "start_time_formatted": "00:05:47.512",
+      "end_time_formatted": "00:05:48.395"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 349.3293718166384,
+      "end_time": 359.88964346349746,
+      "duration": 10.560271646859064,
+      "text": "I don't have anything major for this week design wise, because it was kind of focused on getting this 16 zero plan finalized and everything done with the 1511 plan.",
+      "overlapping": false,
+      "start_time_formatted": "00:05:49.329",
+      "end_time_formatted": "00:05:59.889"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 360.3310696095076,
+      "end_time": 385.35653650254676,
+      "duration": 25.02546689303915,
+      "text": "But I do have one ask I'm looking to sub in real or believable data into our group of environments dashboard and I was hoping I could partner with someone to kind of figure that out. I've called out Andre because I know you had worked with this style of kind of setup before, but open to anyone who might be able to help with that.",
+      "overlapping": false,
+      "start_time_formatted": "00:06:00.331",
+      "end_time_formatted": "00:06:25.356"
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "start_time": 394.01528013582345,
+      "end_time": 394.9660441426146,
+      "duration": 0.9507640067911325,
+      "text": "Yeah, I can support him.",
+      "overlapping": false,
+      "start_time_formatted": "00:06:34.015",
+      "end_time_formatted": "00:06:34.966"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 396.40916808149404,
+      "end_time": 396.8166383701189,
+      "duration": 0.40747028862483603,
+      "text": "Yeah, I can support him.",
+      "overlapping": false,
+      "start_time_formatted": "00:06:36.409",
+      "end_time_formatted": "00:06:36.816"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 396.9694397283531,
+      "end_time": 398.3955857385399,
+      "duration": 1.4261460101868124,
+      "text": "Yes, just.",
+      "overlapping": true,
+      "start_time_formatted": "00:06:36.969",
+      "end_time_formatted": "00:06:38.395"
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "start_time": 397.20713073005095,
+      "end_time": 397.4787775891341,
+      "duration": 0.27164685908314823,
+      "text": "Yes, just.",
+      "overlapping": true,
+      "start_time_formatted": "00:06:37.207",
+      "end_time_formatted": "00:06:37.478"
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "start_time": 401.6723259762309,
+      "end_time": 407.258064516129,
+      "duration": 5.585738539898102,
+      "text": "Yes, just. That depends on actually how much time.",
+      "overlapping": false,
+      "start_time_formatted": "00:06:41.672",
+      "end_time_formatted": "00:06:47.258"
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "start_time": 408.5314091680815,
+      "end_time": 410.0084889643464,
+      "duration": 1.4770797962648885,
+      "text": "That depends on actually how much time. Do you expect from me?",
+      "overlapping": false,
+      "start_time_formatted": "00:06:48.531",
+      "end_time_formatted": "00:06:50.008"
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "start_time": 410.94227504244486,
+      "end_time": 412.02886247877757,
+      "duration": 1.0865874363327066,
+      "text": "Do you expect from me?",
+      "overlapping": false,
+      "start_time_formatted": "00:06:50.942",
+      "end_time_formatted": "00:06:52.028"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 412.92869269949074,
+      "end_time": 417.6825127334465,
+      "duration": 4.753820033955776,
+      "text": "It shouldn't be much. It's just making sure I have like the namings of the group and project proper and like believable.",
+      "overlapping": false,
+      "start_time_formatted": "00:06:52.928",
+      "end_time_formatted": "00:06:57.682"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 417.6994906621393,
+      "end_time": 421.6723259762309,
+      "duration": 3.9728353140916397,
+      "text": "It shouldn't be much. It's just making sure I have like the namings of the group and project proper and like believable.",
+      "overlapping": false,
+      "start_time_formatted": "00:06:57.699",
+      "end_time_formatted": "00:07:01.672"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 422.21561969439733,
+      "end_time": 429.09168081494056,
+      "duration": 6.876061120543227,
+      "text": "Just like believable content. So I'll be the first one to sub everything in and it would just be kind of one review to make sure it makes sense.",
+      "overlapping": false,
+      "start_time_formatted": "00:07:02.215",
+      "end_time_formatted": "00:07:09.091"
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "start_time": 429.7538200339559,
+      "end_time": 431.893039049236,
+      "duration": 2.139219015280105,
+      "text": "Just like believable content. So I'll be the first one to sub everything in and it would just be kind of one review to make sure it makes sense. Yeah, then no problem.",
+      "overlapping": false,
+      "start_time_formatted": "00:07:09.753",
+      "end_time_formatted": "00:07:11.893"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 433.1154499151104,
+      "end_time": 433.33616298811546,
+      "duration": 0.22071307300507215,
+      "text": "Yeah, not I'd say probably max half an hour of your time.",
+      "overlapping": false,
+      "start_time_formatted": "00:07:13.115",
+      "end_time_formatted": "00:07:13.336"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 433.42105263157896,
+      "end_time": 438.0220713073005,
+      "duration": 4.601018675721548,
+      "text": "Yeah, not I'd say probably max half an hour of your time.",
+      "overlapping": false,
+      "start_time_formatted": "00:07:13.421",
+      "end_time_formatted": "00:07:18.022"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 444.13412563667237,
+      "end_time": 453.9473684210526,
+      "duration": 9.813242784380236,
+      "text": "Yeah, not I'd say probably max half an hour of your time. And that kind of wraps it up with my stuff, but now I'm passing it over to see if anyone else has any outstanding design stuff I could help with.",
+      "overlapping": false,
+      "start_time_formatted": "00:07:24.134",
+      "end_time_formatted": "00:07:33.947"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 464.38879456706286,
+      "end_time": 467.1561969439729,
+      "duration": 2.767402376910013,
+      "text": "That's the weird in between miles down week.",
+      "overlapping": false,
+      "start_time_formatted": "00:07:44.388",
+      "end_time_formatted": "00:07:47.156"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 469.65195246179974,
+      "end_time": 469.94057724957554,
+      "duration": 0.28862478777580236,
+      "text": "Yeah, I agree that's why I didn't have very much for this one because most of my 15 11 stuff has been wrapped up.",
+      "overlapping": false,
+      "start_time_formatted": "00:07:49.651",
+      "end_time_formatted": "00:07:49.940"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 469.97453310696096,
+      "end_time": 475.8828522920204,
+      "duration": 5.90831918505944,
+      "text": "Yeah, I agree that's why I didn't have very much for this one because most of my 15 11 stuff has been wrapped up.",
+      "overlapping": false,
+      "start_time_formatted": "00:07:49.974",
+      "end_time_formatted": "00:07:55.882"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 483.5738539898133,
+      "end_time": 489.73684210526324,
+      "duration": 6.162988115449934,
+      "text": "Nobody's nothing there. I would have one question. It's partially to glossary partially today design spin.",
+      "overlapping": false,
+      "start_time_formatted": "00:08:03.573",
+      "end_time_formatted": "00:08:09.736"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 490.22920203735146,
+      "end_time": 490.5008488964346,
+      "duration": 0.27164685908314823,
+      "text": "Nobody's nothing there. I would have one question. It's partially to glossary partially today design spin.",
+      "overlapping": false,
+      "start_time_formatted": "00:08:10.229",
+      "end_time_formatted": "00:08:10.500"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 491.2308998302208,
+      "end_time": 492.6400679117148,
+      "duration": 1.4091680814940446,
+      "text": "Nobody's nothing there. I would have one question. It's partially to glossary partially today design spin. Are you aware?",
+      "overlapping": false,
+      "start_time_formatted": "00:08:11.230",
+      "end_time_formatted": "00:08:12.640"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 495.0,
+      "end_time": 495.44142614601026,
+      "duration": 0.441426146010258,
+      "text": "Are you aware?",
+      "overlapping": false,
+      "start_time_formatted": "00:08:15.000",
+      "end_time_formatted": "00:08:15.441"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 500.28013582342953,
+      "end_time": 505.06791171477084,
+      "duration": 4.787775891341312,
+      "text": "Are you aware? I have an incoming call and I try to get. I was so it's okay.",
+      "overlapping": false,
+      "start_time_formatted": "00:08:20.280",
+      "end_time_formatted": "00:08:25.067"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 505.9168081494058,
+      "end_time": 526.918505942275,
+      "duration": 21.00169779286921,
+      "text": "I have an incoming call and I try to get. I was so it's okay. I don't know. But I started to think about is that is do we have anywhere documented the current available state of the deployment or a deployment job, or I don't even know or environments. Because what I've seen is that we have plenty of issues around.",
+      "overlapping": false,
+      "start_time_formatted": "00:08:25.916",
+      "end_time_formatted": "00:08:46.918"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 528.9219015280137,
+      "end_time": 531.8590831918507,
+      "duration": 2.937181663837009,
+      "text": "So we have a lot of different types of state not working as we expect them to. So I think it would be important press that for the design sprint.",
+      "overlapping": false,
+      "start_time_formatted": "00:08:48.921",
+      "end_time_formatted": "00:08:51.859"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 531.9269949066213,
+      "end_time": 533.1833616298811,
+      "duration": 1.2563667232598164,
+      "text": "So we have a lot of different types of state not working as we expect them to. So I think it would be important press that for the design sprint.",
+      "overlapping": false,
+      "start_time_formatted": "00:08:51.926",
+      "end_time_formatted": "00:08:53.183"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 533.4380305602717,
+      "end_time": 534.9830220713072,
+      "duration": 1.544991511035505,
+      "text": "So we have a lot of different types of state not working as we expect them to. So I think it would be important press that for the design sprint.",
+      "overlapping": false,
+      "start_time_formatted": "00:08:53.438",
+      "end_time_formatted": "00:08:54.983"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 535.3056027164687,
+      "end_time": 536.6129032258063,
+      "duration": 1.307300509337665,
+      "text": "So we have a lot of different types of state not working as we expect them to. So I think it would be important press that for the design sprint.",
+      "overlapping": false,
+      "start_time_formatted": "00:08:55.305",
+      "end_time_formatted": "00:08:56.612"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 536.9864176570459,
+      "end_time": 539.1935483870968,
+      "duration": 2.207130730050949,
+      "text": "So we have a lot of different types of state not working as we expect them to. So I think it would be important press that for the design sprint. We know the available state and we can either discuss based on them or we can add more states as part of the design spins.",
+      "overlapping": false,
+      "start_time_formatted": "00:08:56.986",
+      "end_time_formatted": "00:08:59.193"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 540.5687606112053,
+      "end_time": 547.6655348047539,
+      "duration": 7.0967741935485265,
+      "text": "We know the available state and we can either discuss based on them or we can add more states as part of the design spins.",
+      "overlapping": false,
+      "start_time_formatted": "00:09:00.568",
+      "end_time_formatted": "00:09:07.665"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 552.1137521222411,
+      "end_time": 560.6366723259762,
+      "duration": 8.522920203735111,
+      "text": "So I remember Russell was doing a very like a pretty big revamp of the environments documentation.",
+      "overlapping": false,
+      "start_time_formatted": "00:09:12.113",
+      "end_time_formatted": "00:09:20.636"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 561.1969439728352,
+      "end_time": 563.641765704584,
+      "duration": 2.444821731748789,
+      "text": "But this happened when over top of that when all the reorgs happen. So I don't actually know the outcome of this like documentation change because I know he was adding in.",
+      "overlapping": false,
+      "start_time_formatted": "00:09:21.196",
+      "end_time_formatted": "00:09:23.641"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 564.100169779287,
+      "end_time": 568.5144312393888,
+      "duration": 4.414261460101898,
+      "text": "But this happened when over top of that when all the reorgs happen. So I don't actually know the outcome of this like documentation change because I know he was adding in.",
+      "overlapping": false,
+      "start_time_formatted": "00:09:24.100",
+      "end_time_formatted": "00:09:28.514"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 569.0067911714771,
+      "end_time": 581.8421052631579,
+      "duration": 12.835314091680857,
+      "text": "But this happened when over top of that when all the reorgs happen. So I don't actually know the outcome of this like documentation change because I know he was adding in. A bunch more details and just making sure the environment's documentation flowed a lot better, but I don't actually know if that ever finished.",
+      "overlapping": false,
+      "start_time_formatted": "00:09:29.006",
+      "end_time_formatted": "00:09:41.842"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 585.4414261460101,
+      "end_time": 588.4804753820033,
+      "duration": 3.0390492359931613,
+      "text": "Because I know before that we haven't we haven't touched it for a while.",
+      "overlapping": false,
+      "start_time_formatted": "00:09:45.441",
+      "end_time_formatted": "00:09:48.480"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 591.0950764006791,
+      "end_time": 604.9830220713072,
+      "duration": 13.887945670628142,
+      "text": "Because I know before that we haven't we haven't touched it for a while. I would expect here more in gene documentation. So like that is it's not just what we document for our user, but really what's happening behind it. So what are the states that we store in the models.",
+      "overlapping": false,
+      "start_time_formatted": "00:09:51.095",
+      "end_time_formatted": "00:10:04.983"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 606.7147707979627,
+      "end_time": 611.9269949066213,
+      "duration": 5.2122241086585746,
+      "text": "I would expect here more in gene documentation. So like that is it's not just what we document for our user, but really what's happening behind it. So what are the states that we store in the models. If there are any constraints around them and stuff like that. Is it documented anywhere or we would need to look for it in the code base.",
+      "overlapping": false,
+      "start_time_formatted": "00:10:06.714",
+      "end_time_formatted": "00:10:11.926"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 613.4550084889643,
+      "end_time": 615.0848896434634,
+      "duration": 1.6298811544991167,
+      "text": "If there are any constraints around them and stuff like that. Is it documented anywhere or we would need to look for it in the code base.",
+      "overlapping": false,
+      "start_time_formatted": "00:10:13.455",
+      "end_time_formatted": "00:10:15.084"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 617.1052631578948,
+      "end_time": 619.4482173174872,
+      "duration": 2.3429541595924093,
+      "text": "Is that I don't know actually.",
+      "overlapping": false,
+      "start_time_formatted": "00:10:17.105",
+      "end_time_formatted": "00:10:19.448"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 619.7028862478778,
+      "end_time": 619.8896434634974,
+      "duration": 0.1867572156195365,
+      "text": "Is that I don't know actually.",
+      "overlapping": false,
+      "start_time_formatted": "00:10:19.702",
+      "end_time_formatted": "00:10:19.889"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 620.704584040747,
+      "end_time": 624.151103565365,
+      "duration": 3.4465195246179974,
+      "text": "Is that I don't know actually. Or how difficult it is to get it from the code is actually that I think that's the question.",
+      "overlapping": false,
+      "start_time_formatted": "00:10:20.704",
+      "end_time_formatted": "00:10:24.151"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 625.1867572156198,
+      "end_time": 625.8149405772497,
+      "duration": 0.6281833616299082,
+      "text": "Or how difficult it is to get it from the code is actually that I think that's the question.",
+      "overlapping": false,
+      "start_time_formatted": "00:10:25.186",
+      "end_time_formatted": "00:10:25.814"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 627.9032258064517,
+      "end_time": 636.0356536502547,
+      "duration": 8.132427843803043,
+      "text": "Or how difficult it is to get it from the code is actually that I think that's the question. And I know that likely Ruby engineer could ask us with much faster than any of you. So that's a way that you have no idea.",
+      "overlapping": false,
+      "start_time_formatted": "00:10:27.903",
+      "end_time_formatted": "00:10:36.035"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 638.2597623089982,
+      "end_time": 639.0916808149407,
+      "duration": 0.8319185059424399,
+      "text": "So for environments, there's only available and stop as represented by the tabs on the environments page.",
+      "overlapping": false,
+      "start_time_formatted": "00:10:38.259",
+      "end_time_formatted": "00:10:39.091"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 639.3972835314091,
+      "end_time": 642.3684210526317,
+      "duration": 2.971137521222545,
+      "text": "So for environments, there's only available and stop as represented by the tabs on the environments page.",
+      "overlapping": false,
+      "start_time_formatted": "00:10:39.397",
+      "end_time_formatted": "00:10:42.368"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 642.5891341256367,
+      "end_time": 643.3870967741937,
+      "duration": 0.7979626485569042,
+      "text": "So for environments, there's only available and stop as represented by the tabs on the environments page.",
+      "overlapping": false,
+      "start_time_formatted": "00:10:42.589",
+      "end_time_formatted": "00:10:43.387"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 644.2359932088286,
+      "end_time": 647.1901528013582,
+      "duration": 2.9541595925295496,
+      "text": "So for environments, there's only available and stop as represented by the tabs on the environments page.",
+      "overlapping": false,
+      "start_time_formatted": "00:10:44.235",
+      "end_time_formatted": "00:10:47.190"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 648.4974533106961,
+      "end_time": 653.8964346349746,
+      "duration": 5.398981324278566,
+      "text": "So for environments, there's only available and stop as represented by the tabs on the environments page. For deployments, there's a bunch more that are thought well documented. I'd say well, they are documented in our GraphQL API.",
+      "overlapping": false,
+      "start_time_formatted": "00:10:48.497",
+      "end_time_formatted": "00:10:53.896"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 654.5246179966043,
+      "end_time": 657.7334465195247,
+      "duration": 3.208828522920385,
+      "text": "For deployments, there's a bunch more that are thought well documented. I'd say well, they are documented in our GraphQL API.",
+      "overlapping": false,
+      "start_time_formatted": "00:10:54.524",
+      "end_time_formatted": "00:10:57.733"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 657.9202037351442,
+      "end_time": 660.2971137521222,
+      "duration": 2.376910016977945,
+      "text": "For deployments, there's a bunch more that are thought well documented. I'd say well, they are documented in our GraphQL API. And I would say that's a way of like an enum. So it's just an enumeration of all this listed states, but it doesn't necessarily give good details as to what each day means.",
+      "overlapping": false,
+      "start_time_formatted": "00:10:57.920",
+      "end_time_formatted": "00:11:00.297"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 660.6027164685909,
+      "end_time": 666.188455008489,
+      "duration": 5.585738539898102,
+      "text": "And I would say that's a way of like an enum. So it's just an enumeration of all this listed states, but it doesn't necessarily give good details as to what each day means.",
+      "overlapping": false,
+      "start_time_formatted": "00:11:00.602",
+      "end_time_formatted": "00:11:06.188"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 667.8692699490662,
+      "end_time": 675.3225806451612,
+      "duration": 7.453310696095059,
+      "text": "And I would say that's a way of like an enum. So it's just an enumeration of all this listed states, but it doesn't necessarily give good details as to what each day means. The idea being that we named them well enough that it should be pretty obvious, but it never really is.",
+      "overlapping": false,
+      "start_time_formatted": "00:11:07.869",
+      "end_time_formatted": "00:11:15.322"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 676.4601018675721,
+      "end_time": 677.7504244482172,
+      "duration": 1.2903225806451246,
+      "text": "The idea being that we named them well enough that it should be pretty obvious, but it never really is.",
+      "overlapping": false,
+      "start_time_formatted": "00:11:16.460",
+      "end_time_formatted": "00:11:17.750"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 678.8030560271648,
+      "end_time": 680.314091680815,
+      "duration": 1.5110356536501968,
+      "text": "The idea being that we named them well enough that it should be pretty obvious, but it never really is. I think that's not actually.",
+      "overlapping": true,
+      "start_time_formatted": "00:11:18.803",
+      "end_time_formatted": "00:11:20.314"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 679.2275042444821,
+      "end_time": 679.855687606112,
+      "duration": 0.6281833616299082,
+      "text": "I think that's not actually.",
+      "overlapping": true,
+      "start_time_formatted": "00:11:19.227",
+      "end_time_formatted": "00:11:19.855"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 681.1799660441427,
+      "end_time": 681.2308998302208,
+      "duration": 0.05093378607807608,
+      "text": "I think that's not actually.",
+      "overlapping": false,
+      "start_time_formatted": "00:11:21.179",
+      "end_time_formatted": "00:11:21.230"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 681.2308998302208,
+      "end_time": 681.3497453310697,
+      "duration": 0.11884550084891998,
+      "text": "I think that's not actually.",
+      "overlapping": false,
+      "start_time_formatted": "00:11:21.230",
+      "end_time_formatted": "00:11:21.349"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 681.3497453310697,
+      "end_time": 681.4006791171478,
+      "duration": 0.05093378607807608,
+      "text": "I think that's not actually.",
+      "overlapping": false,
+      "start_time_formatted": "00:11:21.349",
+      "end_time_formatted": "00:11:21.400"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 681.723259762309,
+      "end_time": 682.3514431239389,
+      "duration": 0.6281833616299082,
+      "text": "I think that's not actually. Yeah, I think it's just.",
+      "overlapping": false,
+      "start_time_formatted": "00:11:21.723",
+      "end_time_formatted": "00:11:22.351"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 688.1748726655348,
+      "end_time": 691.213921901528,
+      "duration": 3.0390492359931613,
+      "text": "Yeah, I think it's just. Yeah, I think it's here.",
+      "overlapping": false,
+      "start_time_formatted": "00:11:28.174",
+      "end_time_formatted": "00:11:31.213"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 696.3921901528013,
+      "end_time": 699.125636672326,
+      "duration": 2.733446519524705,
+      "text": "Yeah, I think it's here. Yeah, they go. Yeah.",
+      "overlapping": false,
+      "start_time_formatted": "00:11:36.392",
+      "end_time_formatted": "00:11:39.125"
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "start_time": 720.2292020373513,
+      "end_time": 720.9592529711376,
+      "duration": 0.7300509337862877,
+      "text": "Found it.",
+      "overlapping": false,
+      "start_time_formatted": "00:12:00.229",
+      "end_time_formatted": "00:12:00.959"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 735.2886247877759,
+      "end_time": 737.597623089983,
+      "duration": 2.308998302207101,
+      "text": "I think I found it.",
+      "overlapping": false,
+      "start_time_formatted": "00:12:15.288",
+      "end_time_formatted": "00:12:17.597"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 746.69779286927,
+      "end_time": 747.0033955857386,
+      "duration": 0.30560271646868387,
+      "text": "I think I found it. Yeah.",
+      "overlapping": false,
+      "start_time_formatted": "00:12:26.697",
+      "end_time_formatted": "00:12:27.003"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 768.0050933786079,
+      "end_time": 769.1086587436332,
+      "duration": 1.1035653650253607,
+      "text": "I've been moving.",
+      "overlapping": true,
+      "start_time_formatted": "00:12:48.005",
+      "end_time_formatted": "00:12:49.108"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 768.1239388794568,
+      "end_time": 770.2971137521222,
+      "duration": 2.173174872665413,
+      "text": "I've been moving.",
+      "overlapping": true,
+      "start_time_formatted": "00:12:48.123",
+      "end_time_formatted": "00:12:50.297"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 770.7385398981323,
+      "end_time": 772.6400679117148,
+      "duration": 1.9015280135824923,
+      "text": "I've been moving. You've right here. I've been moving to the design spring issue.",
+      "overlapping": false,
+      "start_time_formatted": "00:12:50.738",
+      "end_time_formatted": "00:12:52.640"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 774.1171477079797,
+      "end_time": 775.5772495755518,
+      "duration": 1.4601018675721207,
+      "text": "You've right here. I've been moving to the design spring issue.",
+      "overlapping": false,
+      "start_time_formatted": "00:12:54.117",
+      "end_time_formatted": "00:12:55.577"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 776.239388794567,
+      "end_time": 776.8166383701189,
+      "duration": 0.5772495755518321,
+      "text": "You've right here. I've been moving to the design spring issue.",
+      "overlapping": false,
+      "start_time_formatted": "00:12:56.239",
+      "end_time_formatted": "00:12:56.816"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 779.1935483870968,
+      "end_time": 779.5840407470289,
+      "duration": 0.3904923599320682,
+      "text": "For them most part, they're also pretty explicitly linked to what's available as a job.",
+      "overlapping": false,
+      "start_time_formatted": "00:12:59.193",
+      "end_time_formatted": "00:12:59.584"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 780.9252971137521,
+      "end_time": 784.4397283531409,
+      "duration": 3.5144312393888413,
+      "text": "For them most part, they're also pretty explicitly linked to what's available as a job.",
+      "overlapping": false,
+      "start_time_formatted": "00:13:00.925",
+      "end_time_formatted": "00:13:04.439"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 784.7453310696096,
+      "end_time": 790.144312393888,
+      "duration": 5.398981324278338,
+      "text": "For them most part, they're also pretty explicitly linked to what's available as a job.",
+      "overlapping": true,
+      "start_time_formatted": "00:13:04.745",
+      "end_time_formatted": "00:13:10.144"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 788.1409168081493,
+      "end_time": 789.3633276740238,
+      "duration": 1.222410865874508,
+      "text": "For them most part, they're also pretty explicitly linked to what's available as a job.",
+      "overlapping": true,
+      "start_time_formatted": "00:13:08.140",
+      "end_time_formatted": "00:13:09.363"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 791.4685908319186,
+      "end_time": 794.2699490662139,
+      "duration": 2.8013582342953214,
+      "text": "And because in the end, so this deployments are generally tied to the CI drive, so they kind of share some of that.",
+      "overlapping": false,
+      "start_time_formatted": "00:13:11.468",
+      "end_time_formatted": "00:13:14.269"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 795.1867572156198,
+      "end_time": 797.6655348047539,
+      "duration": 2.478777589134097,
+      "text": "And because in the end, so this deployments are generally tied to the CI drive, so they kind of share some of that.",
+      "overlapping": false,
+      "start_time_formatted": "00:13:15.186",
+      "end_time_formatted": "00:13:17.665"
+    },
+    {
+      "speaker_id": "SPEAKER_02",
+      "start_time": 798.2427843803057,
+      "end_time": 804.8132427843802,
+      "duration": 6.570458404074543,
+      "text": "And because in the end, so this deployments are generally tied to the CI drive, so they kind of share some of that. But I think very, very, very.",
+      "overlapping": false,
+      "start_time_formatted": "00:13:18.242",
+      "end_time_formatted": "00:13:24.813"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 814.6434634974532,
+      "end_time": 818.1239388794568,
+      "duration": 3.480475382003533,
+      "text": "Yeah. Okay, thank you. That was all I had.",
+      "overlapping": false,
+      "start_time_formatted": "00:13:34.643",
+      "end_time_formatted": "00:13:38.123"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 826.0865874363328,
+      "end_time": 833.8964346349746,
+      "duration": 7.809847198641819,
+      "text": "I think that's a good thing.",
+      "overlapping": false,
+      "start_time_formatted": "00:13:46.086",
+      "end_time_formatted": "00:13:53.896"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 838.7351443123939,
+      "end_time": 838.8030560271648,
+      "duration": 0.0679117147708439,
+      "text": "Since this is kind of our in between week meeting, I can give people a bunch of time back.",
+      "overlapping": false,
+      "start_time_formatted": "00:13:58.735",
+      "end_time_formatted": "00:13:58.803"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 839.516129032258,
+      "end_time": 851.7911714770798,
+      "duration": 12.275042444821793,
+      "text": "Since this is kind of our in between week meeting, I can give people a bunch of time back. Well, thanks all for helping merge the next iteration of the glossary. Look forward to the next. Yeah, I think it's a good design sprint.",
+      "overlapping": false,
+      "start_time_formatted": "00:13:59.516",
+      "end_time_formatted": "00:14:11.791"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 854.1850594227503,
+      "end_time": 856.0016977928692,
+      "duration": 1.8166383701188806,
+      "text": "I think that's a pretty good action on that.",
+      "overlapping": false,
+      "start_time_formatted": "00:14:14.185",
+      "end_time_formatted": "00:14:16.001"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 857.7164685908319,
+      "end_time": 857.76740237691,
+      "duration": 0.05093378607807608,
+      "text": "So.",
+      "overlapping": false,
+      "start_time_formatted": "00:14:17.716",
+      "end_time_formatted": "00:14:17.767"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 858.4634974533108,
+      "end_time": 859.5500848896436,
+      "duration": 1.0865874363328203,
+      "text": "So. Yeah.",
+      "overlapping": false,
+      "start_time_formatted": "00:14:18.463",
+      "end_time_formatted": "00:14:19.550"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 859.8726655348048,
+      "end_time": 859.8896434634974,
+      "duration": 0.016977928692540445,
+      "text": "Yeah.",
+      "overlapping": false,
+      "start_time_formatted": "00:14:19.872",
+      "end_time_formatted": "00:14:19.889"
+    },
+    {
+      "speaker_id": "SPEAKER_03",
+      "start_time": 859.8896434634974,
+      "end_time": 860.2122241086588,
+      "duration": 0.3225806451614517,
+      "text": "Yeah. Cool.",
+      "overlapping": false,
+      "start_time_formatted": "00:14:19.889",
+      "end_time_formatted": "00:14:20.212"
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 860.6027164685909,
+      "end_time": 861.044142614601,
+      "duration": 0.4414261460101443,
+      "text": "Cool. Thank you.",
+      "overlapping": false,
+      "start_time_formatted": "00:14:20.602",
+      "end_time_formatted": "00:14:21.044"
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "start_time": 861.9100169779288,
+      "end_time": 862.3344651952461,
+      "duration": 0.4244482173173765,
+      "text": "Thank you. Bye.",
+      "overlapping": false,
+      "start_time_formatted": "00:14:21.910",
+      "end_time_formatted": "00:14:22.334"
+    }
+  ]
+}
